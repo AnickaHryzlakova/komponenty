@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Počítačové Komp</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+ <h1>Kontakty</h1>
+
+  <div class="header">
+<ul class="navbar">
+ <li><a href="index.html">Domů</a></li>
+ <li><a href="clients.html">Klienti</a></li>
+ <li><a href="about.html">O nás</a></li>
+ <li><a href="contacts.html">Kontakty</a></li>
+</ul>
+  </div>  
+
+<style>
+body {
+ font-family: "Arial", sans-serif;
+ background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+ }
+
+header {
+ background-color: #333;
+ color: white;
+ padding: 20px;
+ text-align: center;
+}
+
+.contact-container {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: white;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h2 {
+ color: #333;
+}
+
+.contact-info {
+  margin-top: 20px;
+ }
+
+.contact-info p {
+   margin: 10px 0;
+}
+
+.contact-form {
+   margin-top: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+ .contact-form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.contact-form button {
+ background-color: #333;
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.pozice{
+  position: absolute;
+  top:69%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+
+  
+}
+
+</style>
+
+
+<body>
+
+<div class= "pozice">
+<div class="contact-container">
+<h2>Kontaktní informace</h2>
+<div class="contact-info">
+<p>Telefon: +420 123 456 789</p>
+<p>Email: info@example.com</p>
+<p>Adresa: 123 Ulice, Město, PSČ</p>
+</div>
+
+<h2>Kontaktní formulář</h2>
+<form class="contact-form">
+<label for="name">Jméno:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Zpráva:</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+
+<button type="submit">Odeslat</button>
+</form>
+</div>
+</div>
+  </body>
+
+  </html>
